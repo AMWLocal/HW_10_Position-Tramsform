@@ -1,0 +1,117 @@
+.container {
+    max-width: 1600px;
+    max-height: 736px;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    border: none;
+    background-color: #DDDBDB;
+    height: 2px;
+    width: 45px;
+    margin: 0 auto;
+    margin-bottom: 61px;
+}
+
+h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C3C3C;
+    max-width: 557px;
+    max-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 75px;
+
+}
+
+.name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+
+.position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #646464;
+}
+
+.img:hover {
+    opacity: 0;
+}
+
+.hover {
+    width: 270px;
+    height: 270px;
+    background-color: #00AED9;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+
+}
+
+.hover:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon_all>* {
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 8px;
+
+}
+
+.icon_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    text-decoration: none;
+
+}
+
+.icon {
+    background-color: #4CC6E4;
+    width: 42px;
+    height: 42px;
+    text-decoration: none;
+    margin: 2.5px;
+
+
+}
+
+.icon:hover {
+    color: rebeccapurple;
+    transition: 0.6s;
+    transform: scale(1.2);
+}
